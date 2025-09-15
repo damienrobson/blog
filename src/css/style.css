@@ -1,3 +1,37 @@
+:root {
+  --main-color: #1e824c;
+  --link-color: #007c6c;
+  --link-color-hover: #448b07;
+  --link-color-visited: #a8af00;
+  --focus: #005d82;
+  --white: #ffffff;
+  --black: #000000;
+}
+
 body {
   font-family: sans-serif;
+  color: var(--black);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h1 {
+  color: var(--main-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-color-hover);
+}
+
+a:visited {
+  color: var(--link-color-visited);
+}
+
+a:focus {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
 }
