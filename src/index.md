@@ -1,9 +1,9 @@
 ---
-title: damien robson
+title: damienrobson
 layout: base.njk
 templateEngineOverride: njk,md
 ---
 
-## Blog Posts
+An internet blog from the troubled mind of a web developer
 
 {% include "postlist.njk" %}
