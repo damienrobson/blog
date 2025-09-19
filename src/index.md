@@ -4,6 +4,8 @@ layout: base.njk
 templateEngineOverride: njk,md
 ---
 
-An internet blog from the troubled mind of a web developer
+An internet blog from the troubled mind of a web developer. If you want to reach out, you can
+find me on <a href="https://www.linkedin.com/in/damien-r-4b9b37371/" target="_blank">LinkedIn</a>
+or on <a href="https://bsky.app/profile/damienrobson.bsky.social/" target="_blank">BlueSky</a>.
 
 {% include "postlist.njk" %}
