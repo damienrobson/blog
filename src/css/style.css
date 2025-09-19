@@ -33,19 +33,6 @@ li {
   }
 }
 
-.blog-green-sample-container {
-  display: flex;
-  justify-content: center;
-}
-
-.blog-green-sample {
-  background: #08a93a;
-  border: 1px solid black;
-  max-width: 50px;
-  min-height: 21px;
-  min-width: 50px;
-}
-
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
