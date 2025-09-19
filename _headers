@@ -1,0 +1,24 @@
+/*
+  # Security Headers
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer-when-downgrade
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'
+
+  # Caching
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Static Assets (longer caching)
+  /icons/*
+    Cache-Control: public, max-age=31536000, immutable
+  /images/*
+    Cache-Control: public, max-age=31536000, immutable
+  /css/*
+    Cache-Control: public, max-age=31536000, immutable
+  /js/*
+    Cache-Control: public, max-age=31536000, immutable
+
+# HTML pages (short caching)
+  /*.html
+    Cache-Control: public, max-age=0, must-revalidate
