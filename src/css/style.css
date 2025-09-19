@@ -16,7 +16,7 @@ h3 {
   line-height: 1.2;
 }
 
-li {
+ol > li {
   list-style: none;
 
   h2 {
