@@ -1,0 +1,36 @@
+---
+layout: null
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  {% for page in collections.all %}
+    {% if page.url != "/404.html" %}
+  <url>
+    <loc>{{ "https://damienrobson.netlify.app" | url }}{{ page.url }}</loc>
+
+    {# Convert page.date to YYYY-MM-DD #}
+    <lastmod>{{ page.date.toISOString().slice(0,10) }}</lastmod>
+
+    <changefreq>monthly</changefreq>
+
+    {% if page.data.layout == "post" %}
+      <priority>0.8</priority>
+    {% else %}
+      <priority>0.5</priority>
+    {% endif %}
+
+    {% if page.data.image %}
+    <image:image>
+      <image:loc>{{ "https://damienrobson.netlify.app" | url }}{{ page.data.image }}</image:loc>
+      <image:caption>{{ page.data.title }}</image:caption>
+    </image:image>
+    {% endif %}
+  </url>
+    {% endif %}
+  {% endfor %}
+
+</urlset>

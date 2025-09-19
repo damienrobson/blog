@@ -1,0 +1,5 @@
+# Redirect /index.html to /
+/index.html  /  301!
+
+# Fallback for SPA / 404
+/*  /index.html  200
