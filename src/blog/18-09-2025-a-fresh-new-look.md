@@ -9,6 +9,20 @@ few days. My favourite colour is green, so naturally I lent towards a hue of gre
 was pleasing to look at and yet easy on the eye. In the end, I decided on a tint that
 suited me right to the ground. And this was it:
 
+<style>
+  .blog-green-sample-container {
+    display: flex;
+    justify-content: center;
+  }
+  .blog-green-sample {
+    background: #08a93a;
+    border: 1px solid black;
+    max-width: 50px;
+    min-height: 21px;
+    min-width: 50px;
+  }
+</style>
+
 <div class="blog-green-sample-container">
     <div class="blog-green-sample"></div>
     <span class="sr-only">
