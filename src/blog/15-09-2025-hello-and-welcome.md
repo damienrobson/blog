@@ -1,5 +1,5 @@
 ---
-title: Hello & Welcome
+title: Hello
 details: 15th September 2025
 summary: Every journey begins with a first step.
 ---
