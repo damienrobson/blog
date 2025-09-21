@@ -1,7 +1,18 @@
-/* TEAM */ Owner: Damien Robson Site: damienrobson.netlify.app LinkedIn:
-https://www.linkedin.com/in/damien-r-4b9b37371/ BlueSky:
-https://bsky.app/profile/damienrobson.bsky.social/ GitHub: damienrobson
-Location: Tyne and Wear, UK /* THANKS */ Name: Martin Underhill, /* SITE */ Last
-update: 21-09-2025 Standards: HTML5, WCAG 2.1 Software: React, 11ty, TypeScript,
-Vite
+/* TEAM */ 
+
+Owner: Damien Robson 
+Site: damienrobson.netlify.app 
+LinkedIn: https://www.linkedin.com/in/damien-r-4b9b37371/ 
+BlueSky: https://bsky.app/profile/damienrobson.bsky.social/ 
+GitHub: damienrobson
+Location: Tyne and Wear, UK 
+
+/* THANKS */ 
+
+- Martin Underhill, for advice, guidance and mentorship
+
+/* SITE */ 
+Last update: 21-09-2025 
+Standards: HTML5, WCAG 2.1 
+Software: React, 11ty, TypeScript, Vite
 
