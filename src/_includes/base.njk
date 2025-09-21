@@ -13,8 +13,9 @@
   </title>
   
   <meta name="description" content="{{ description or site.description or 'An internet blog from the troubled mind of a web developer' }}" />
-  <meta name="author" content="Damien Robson" />
   <meta name="language" content="en" />
+
+  <link rel="author" href="humans.txt" />
 
   <link rel="icon" href="/icons/favicon.ico" />
   <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
@@ -42,5 +43,17 @@
   <main>
     {{ content | safe }}
   </main>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 Damien Robson. Built with ❤ and overthinking.</p>
+      <nav class="footer-nav">
+        <a href="/">Blog</a> |
+        <a href="/now">Now</a> |
+        <a href="/about">About</a> |
+        <a href="/projects">Projects</a> |
+        <a href="/accessibility-statement">Accessibility Statement</a> 
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

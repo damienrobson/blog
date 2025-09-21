@@ -1,6 +1,7 @@
 ---
 title: So, why a blog?
 details: 19th September 2025
+date: 2025-09-19
 summary: Sometimes, all it takes is a spark of inspiration
 ---
 

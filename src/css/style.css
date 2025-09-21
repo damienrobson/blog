@@ -61,6 +61,24 @@ img {
   border: 1px solid black;
 }
 
+footer {
+  border-top: 1px solid #ddd;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #444;
+  background: #eee;
+}
+
+.footer-nav a {
+  color: #444;
+  margin: 0 8px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #ddd;
@@ -78,5 +96,14 @@ img {
 
   img {
     border: 1px solid white;
+  }
+
+  footer {
+    color: #eee;
+    background: #222;
+  }
+
+  .footer-nav a {
+    color: #eee;
   }
 }

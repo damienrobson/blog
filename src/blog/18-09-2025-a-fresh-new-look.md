@@ -1,6 +1,7 @@
 ---
 title: A fresh new look
 details: 18th September 2025
+date: 2025-09-18
 summary: Appearances can be deceptive.
 ---
 
