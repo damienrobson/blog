@@ -1,6 +1,7 @@
 ---
 title: Taking a look behind the curtain
-details: 15th September 2025
+details: 20th September 2025
+date: 2025-09-20
 summary: Because what happens backstage is just as important
 ---
 

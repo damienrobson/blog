@@ -1,6 +1,7 @@
 ---
 title: Hello
 details: 15th September 2025
+date: 2025-09-15
 summary: Every journey begins with a first step.
 ---
 
