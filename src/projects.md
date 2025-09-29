@@ -8,7 +8,7 @@ Here's a list of things I'm currently up to:
 
 - this blog;
 - my <a href="https://a11y-aggregator.web.app/">accessibility news aggregator</a>;
-- building my own <a href="www.npmjs.com/package/@damienrobson/clarityui" target="_blank">accessibility-focused React component library</a>;
+- building my own <a href="https://www.npmjs.com/package/@damienrobson/clarityui" target="_blank">accessibility-focused React component library</a>;
 - designing a planning poker app for use at work (currently on-hold until I can use the above in it...).
 
 I've also got around 1,001 unfinished or yet-to-be-started projects and ideas
