@@ -14,4 +14,4 @@ As of {{ now }}:
 - blog updates continue, albeit slower owing to diminishing Netlify credits;
 - I've moved my <a href="https://a11y-aggregator.web.app/">
   accessibility news aggregator</a> into a maintenance state (at least for now); and
-- work continues on <a href="www.npmjs.com/package/@damienrobson/clarityui" target="_blank">my accessibility-focused React component library</a>;
+- work continues on <a href="https://www.npmjs.com/package/@damienrobson/clarityui" target="_blank">my accessibility-focused React component library</a>;
