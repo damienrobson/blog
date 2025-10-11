@@ -140,7 +140,7 @@ ratio; that is, the ratio at which one colour stands out against another. WCAG
 success criteria required a colour contrast ratio of 4.5:1 for normal text
 (or 3:1 if using a larger font size). There are a million and one tools out
 there that can check this for you (you don't need to calculate this yourself,
-don't worry). My personal favourite is <a href="https://colourcontrast.cc/" target="_blank" rel="noreferrer">ColourContrast.cc  (opens in a new window)</a>, mainly because it's simple and effective, but also because I'm
+don't worry). My personal favourite is <a href="https://colourcontrast.cc/" target="_blank" rel="noreferrer">ColourContrast.cc (opens in a new window)</a>, mainly because it's simple and effective, but also because I'm
 British and they've used the correct spelling of "colour"...
 
 Our black-on-blue button comes in at a ratio of 1.85:1. Barely discernible.
@@ -279,19 +279,19 @@ better indication of what content currently has focus.
 
 ## A word on ARIA
 
-I want to get something out of the way early on this: 
+I want to get something out of the way early on this:
 
 > "no aria is better than bad aria"
 
 ARIA (_Accessible Rich Internet Applications_) is designed to fill the gaps in
-scenarios whereby you can't make native HTML elements fully accessible. Does 
-this mean that we can use it to make perfect, accessible buttons that anyone 
+scenarios whereby you can't make native HTML elements fully accessible. Does
+this mean that we can use it to make perfect, accessible buttons that anyone
 can use? Well... no, not really.
 
 The `button` element in and of itself is highly semantic; that is, the vast
 majority of users who encounter a button, through any medium, will know that
-they're interacting with one. You therefore don't need to add e.g. 
-`role="button"` to a button because it already does that out of the box. You 
+they're interacting with one. You therefore don't need to add e.g.
+`role="button"` to a button because it already does that out of the box. You
 can apply this rule quite generally by simply asking yourself, "do I need
 to add this?".
 
@@ -307,7 +307,7 @@ you can across this instead?
 
 <button>&#8592;</button>
 
-You might have higher technical literacy and be able to hazard an educated 
+You might have higher technical literacy and be able to hazard an educated
 guess as to what that button does. It probably goes backwards. But what if
 you didn't have that knowledge? Similarly, what if you can't see the button's
 content in the first place?
@@ -323,7 +323,7 @@ so that every user has the same experience when using it:
 
 <button aria-label="Go back to the previous page">&#8592;</button>
 
-Nothing's changed? Visually, no, it hasn't, but try turning on one of your 
+Nothing's changed? Visually, no, it hasn't, but try turning on one of your
 machine's assistive technologies and applying focus to it...
 
 Neat, right? Your button looks the same as it did, but now everyone can use
@@ -353,7 +353,36 @@ and less work to maintain it.
 
 And at the end of the day, surely that's all we can ask for as developers, right?
 
-If you'd like to learn more about ARIA, I recommend you check out the official 
+If you're interested, here's the full HTML and CSS for the final product:
+
+### HTML
+
+```html
+<button class="button-demo-10" aria-label="Go to the previous page">
+  &#8592;
+</button>
+```
+
+### CSS
+
+```css
+.button-demo-10 {
+  background-color: blue;
+  color: white;
+  min-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 24px;
+  margin: 8px 16px;
+}
+
+.button-demo-10:focus-visible {
+  outline: 9px double black;
+  box-shadow: 0 0 0 6px white;
+}
+```
+
+If you'd like to learn more about ARIA, I recommend you check out the official
 documentation over at the <a href="https://www.w3.org/WAI/standards-guidelines/aria/" target="_blank" rel="noreferrer">WAI-ARIA standards page (opens in a new window)</a>
 
 Until next time.
