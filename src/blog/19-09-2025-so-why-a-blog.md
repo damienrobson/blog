@@ -18,8 +18,8 @@ of the web.
 4. It's a resource that I can use to better myself.
 
 My inspiration for this whole thing started when a good friend and
-mentor decided the time was right to <a href="https://www.tempertemper.net/blog/everything-has-its-time" target="_blank">leave
-his job</a>. I'd previously done a little bit of JavaScript tinkering
+mentor decided the time was right to <a href="https://www.tempertemper.net/blog/everything-has-its-time" target="_blank" rel="noreferrer">leave
+his job (opens in a new window)</a>. I'd previously done a little bit of JavaScript tinkering
 on that site, and received regular emails keeping me abreast of
 Martin's upcoming posts and whatnot. Heck, I found out he was leaving
 through a GitHub pull request.

@@ -12,7 +12,7 @@ like, installing it and off you go. Simple!
 Well, as part of my ongoing efforts to increase my portfolio of work,
 embelish my CV a little and maybe even learn something along the way, I've
 started writing my own component UI library: say hello, to
-<a href="https://www.npmjs.com/package/@damienrobson/clarityui" target="_blank">ClarityUI</a>!
+<a href="https://www.npmjs.com/package/@damienrobson/clarityui" target="_blank" rel="noreferrer">ClarityUI (opens in a new window)</a>!
 
 It's new. It's shiny. And it has a whole 1 components! Yes, it's very much
 a WIP but I'm in no rush to get it done. As I said, I'm using it all as a

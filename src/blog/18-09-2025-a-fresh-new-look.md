@@ -37,9 +37,9 @@ And yet, still I looked. Still I played around with palettes and immersed myself
 in colour theory and countless articles and generators claiming to be the best that
 the internet had to offer.
 
-And then, I stumbled upon <a href="http://bettermotherfuckingwebsite.com/">Better
-Motherf-cking Website</a>, itself an evolution of <a href="http://motherfuckingwebsite.com/">
-Motherf-cking Website</a>.
+And then, I stumbled upon <a href="http://bettermotherfuckingwebsite.com/" target="_blank" rel="noreferrer">Better
+Motherf-cking Website (opens in a new window)</a>, itself an evolution of <a href="http://motherfuckingwebsite.com/" target="_blank" rel="noreferrer">
+Motherf-cking Website (opens in a new window)</a>.
 
 Immediately, my mind was changed. The sites made perfect sense. So much of the web these
 days is awash in a sea of colour. A sea that not everyone can, well... <em>see</em>.
