@@ -12,6 +12,6 @@ As of {{ now }}:
 - the kids have managed to start driving me up the wall again;
 - the dog is still akin to a toddler;
 - blog updates continue, albeit slower owing to diminishing Netlify credits;
-- I've moved my <a href="https://a11y-aggregator.web.app/">
-  accessibility news aggregator</a> into a maintenance state (at least for now); and
-- work continues on <a href="https://www.npmjs.com/package/@damienrobson/clarityui" target="_blank">my accessibility-focused React component library</a>;
+- I've moved my <a href="https://a11y-aggregator.web.app/" target="_blank" rel="noreferrer">
+  accessibility news aggregator (opens in a new window)</a> into a maintenance state (at least for now); and
+- work continues on <a href="www.npmjs.com/package/@damienrobson/clarityui" target="_blank" rel="noreferrer">my accessibility-focused React component library (opens in a new window)</a>;

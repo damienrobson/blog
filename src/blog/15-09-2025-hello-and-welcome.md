@@ -25,6 +25,6 @@ of words can be a good thing. Or so I'm told.
 
 Most of all, I want this blog to feel like an ongoing conversation. So if something I
 write resonates with you, I’d love to hear your thoughts on it. You can find me on
-<a href="https://www.linkedin.com/in/damien-r-4b9b37371/" target="_blank">LinkedIn</a>
+<a href="https://www.linkedin.com/in/damien-r-4b9b37371/" target="_blank" rel="noreferrer">LinkedIn (opens in a new window)</a>
 
 Thanks for stopping by.

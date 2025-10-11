@@ -27,15 +27,15 @@ quite compact and lightweight.
 
 There's actually very little to the site. A few years ago, I picked up a side
 project at work with Martin, who introduced me to
-<a href="https://www.11ty.dev/" target="_blank">Eleventy</a>. As a React
+<a href="https://www.11ty.dev/" target="_blank" rel="noreferrer">Eleventy (opens in a new window)</a>. As a React
 developer, Eleventy (11ty) feels... weird. It's a static site generator
 (and a bloody good one at that) with very little in terms of bells and whistles,
 and you're very much given a blank canvas when you first start out with it.
 Fast-forward to today, however, and the value in that is clear; I've been able
 to get this blog up and running, and out of the door, in a matter of hours
 (days if you then look at the tweaks and things I've done to it). Take a look
-at my <a href="https://github.com/damienrobson/blog" target="_blank">GitHub
-repo</a>; you'll see that there's more files for optimising security, SEO,
+at my <a href="https://github.com/damienrobson/blog" target="_blank" rel="noreferrer">GitHub
+repo (opens in a new window)</a>; you'll see that there's more files for optimising security, SEO,
 etc. than there is actual 11ty overhead.
 
 11ty happens to also be the only dependency I have/want/need. Everything else
@@ -48,7 +48,7 @@ And that's it, really. Being so lightweight, there's actually not a lot more I c
 talk about without drilling into the very specific details of how pages are built,
 etc. If there's demand for it, maybe one day I will. But that's not one for today.
 
-One final note: I use <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+One final note: I use <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">Netlify (opens in a new window)</a>
 for building, deploying and hosting. Similar to 11ty, I've found it to be
 quite simple and easy-to-use. I'm using their Free Plan at the moment, and I'm
 hammering my monthly credits, but once things stabilise I'm sure that that will
