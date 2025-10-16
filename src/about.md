@@ -28,3 +28,6 @@ rise to my fascination with digital accessibility, and led me to becoming
 an Accessibility Champion. I've had the honour and pleasure of working with
 some amazing people over the 6 years I've been there, and I'd like to think
 that I've built some friendships for life because of it.
+
+In my spare time, I game (I've had a controller in my hands since the age
+of three) or watch sports (football and F1 are my go-to choices). 
